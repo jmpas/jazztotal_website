@@ -1,2 +1,2 @@
-# jazztotal_website
+# Jazz Total 
 Responsive website for Jazz Total brazilian band. 
