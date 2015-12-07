@@ -1,0 +1,8 @@
+@media screen and (max-width: 600px) {
+
+#logo {
+  max-width: 85%;
+  margin: 0 auto 10px;
+}
+
+}
