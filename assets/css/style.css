@@ -61,14 +61,15 @@ header {
   margin:0 auto;
   z-index: 1;
   display: auto;
-  background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.3) 54%, rgba(0,0,0,0.08) 87%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.3) 54%,rgba(0,0,0,0.08) 87%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.3) 54%,rgba(0,0,0,0.08) 87%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 
 }
 
 #menu-icon {
+  width: 24px;
   padding: 20px;
   padding-top: 30px;
 }
@@ -100,9 +101,21 @@ header {
   bottom: 0;
 }
 
+.left{
+  left: 20px;
+}
+
+.play{
+  left: 15px;
+}
+
+.right {
+  left: 10px;
+}
 #music-name {
-  width: 200px;
+  width: 180px;
   position: relative;
+  left: 20px;
   top: -35px;
 }
 
